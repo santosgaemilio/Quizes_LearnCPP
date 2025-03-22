@@ -1,3 +1,5 @@
+#undef NDEBUG
+
 #include "Ejercicios/Chapter_1.h" // Se tiene que poner el directorio completo
 #include "Ejercicios/Chapter_2.h"
 #include "Ejercicios/Chapter_4.h"
@@ -17,6 +19,8 @@ int main() {
     // Chapter6::appleOdyssey();
     // Chapter7::howBigIsTheClass();
     // Chapter7::printAccumulatedNumbers();
-    Chapter8::CalculateFullBallFall();
+    // Chapter8::CalculateFullBallFall();
+    // Chapter8::primeNumbersTest();
+    Chapter8::hiLoGame();
     return 0;
 }
